@@ -1,12 +1,10 @@
 from function.data import n, min_score, scores # imports all demo data
 
-
+# FUNCTIONS
 
 def sort_data(data): # sorts given data by value
     sorted_scores = sorted(scores.items(), key=lambda x:x[1], reverse=True) # sorts given data by their value from higher to lower
     return(sorted_scores)
-
-
 
 def limit_data(data, limit, minimum): # sorts and limits given data by limit
     n_scores = []
@@ -26,11 +24,10 @@ def limit_data(data, limit, minimum): # sorts and limits given data by limit
     
     return(n_scores)
 
-
-
-
 def nice_print(data): # prints given data in better formating
     for key, value in data.items():
         print(f"{key} ({value})") # print using f-print
+        
+# RUN
     
 nice_print(limit_data(scores, n, min_score)) # limit (and sort) scores by n and print it nicely
