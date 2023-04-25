@@ -1,0 +1,44 @@
+.navbar {
+    height: 100%;
+}
+
+.navbar-brand {
+    font-size: 200% !important;
+}
+
+.nav-link {
+    font-size: 120%;
+}
+
+.back-image {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), url(images/background.jpg);
+    background-position: center;
+    width: 100vw;
+    height: 90vh;
+}
+
+.middle-text {
+    color: white;
+    padding: 30px;
+}
+
+.text-row {
+    height: 90vh;
+}
+
+.sluzby {
+    margin: 40px;
+}
+
+.card {
+    margin: 15px auto;
+}
+
+.card-obr-top {
+    margin: 20px auto;
+    height: 40px;
+}
+
+form {
+    margin: 40px;
+}
