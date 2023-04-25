@@ -1,4 +1,4 @@
-from data import n, min_score, scores # imports all demo data
+from function.data import n, min_score, scores # imports all demo data
 
 
 
